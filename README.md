@@ -27,7 +27,7 @@ If you'd like to learn more about the creator of these projects, here's a link t
 <table>
   <tr>
     <td align="center">
-      <a href="#" title="Pedro">
+      <a href="https://github.com/PedroX-dev" title="Pedro">
         <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Pedro no GitHub"/><br>
         <sub>
           <b>Pedro Henrique dos Santos Souza Lopes</b>
