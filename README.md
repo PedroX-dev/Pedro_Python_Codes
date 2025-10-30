@@ -8,7 +8,7 @@
 
 <img src="../assets/imagens/Python.png" width="500" alt="Python">
 
-> Linha adicional de texto informativo sobre o que o projeto faz. Sua introdução deve ter cerca de 2 ou 3 linhas. Não exagere, as pessoas não vão ler.
+> Here, I will add my Python code that I'm creating over time.
 
 ### Ajustes e melhorias
 
