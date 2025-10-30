@@ -54,7 +54,16 @@ You just need to use: [**devolver_arquivos.py**](./Codes/UploadArchive/TheCode/d
 <details>
 <summary>Details about the code</summary>
 <br>
-Nesse projeto, criei um simples sistema de Web-Scrapping, que acessa o site: (https://quotes.toscrape.com/)
+Nesse projeto, criei um simples sistema de Web-Scrapping, utilizando 3 codigos:
+
+<br>[**extrator_web.py**](./Codes/Web-Scrapper/TheCodes/extrator_web.py/)
+<br>[**gerador_pdf.py**](./Codes/Web-Scrapper/TheCodes/gerador_pdf.py/)
+<br>[**main.py**](./Codes/Web-Scrapper/TheCodes/main.py/)
+
+Dessa forma, o programa acessa o site: https://quotes.toscrape.com/, e extrai as citações sobre um autor ou tag especificados pelo usuario no console, e devolve as informações em um pdf formatado via html e css, pelos arquivos: 
+<br>[**template.html**](./Codes/Web-Scrapper/TheCodes/template.html/)
+<br>[**styles.css**](./Codes/Web-Scrapper/TheCodes/styles.css/).
+
 
 
 ## 🤝 Collaborator
