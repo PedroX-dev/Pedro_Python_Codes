@@ -23,7 +23,7 @@ Before you start, please check that you meet the following requirements:
 
   ## The Projects
 > [!NOTE]
-> The codes are saved in: - [**Codes**](./Codes/)
+> The codes are saved in:[**Codes**](./Codes/)
 
 > [!TIP]
 > To access any code, simply click on the corresponding link below:
