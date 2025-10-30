@@ -19,43 +19,6 @@ Before you start, please check that you meet the following requirements:
 - You have a machine with `<Windows / Linux / Mac>`.
 - Before use the codes, see the guides to help you `<guia / link / documentação_relacionada_ao_projeto>`.
 
-## 🚀 Instalando <nome_do_projeto>
-
-Para instalar o <nome_do_projeto>, siga estas etapas:
-
-Linux e macOS:
-
-```
-<comando_de_instalação>
-```
-
-Windows:
-
-```
-<comando_de_instalação>
-```
-
-## ☕ Usando <nome_do_projeto>
-
-Para usar <nome_do_projeto>, siga estas etapas:
-
-```
-<exemplo_de_uso>
-```
-
-Adicione comandos de execução e exemplos que você acha que os usuários acharão úteis. Forneça uma referência de opções para pontos de bônus!
-
-## 📫 Contribuindo para <nome_do_projeto>
-
-Para contribuir com <nome_do_projeto>, siga estas etapas:
-
-1. Bifurque este repositório.
-2. Crie um branch: `git checkout -b <nome_branch>`.
-3. Faça suas alterações e confirme-as: `git commit -m '<mensagem_commit>'`
-4. Envie para o branch original: `git push origin <nome_do_projeto> / <local>`
-5. Crie a solicitação de pull.
-
-Como alternativa, consulte a documentação do GitHub em [como criar uma solicitação pull](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/creating-a-pull-request).
 
 ## 🤝 Colaboradores
 
