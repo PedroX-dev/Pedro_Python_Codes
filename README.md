@@ -6,7 +6,9 @@
 ![Bitbucket open issues](https://img.shields.io/bitbucket/issues/iuricode/README-template?style=for-the-badge)
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
+<p align= "center">
 <img src="/assets/imagens/Python.png" width="500" alt="Python">
+</p>
 
 > Here, I will add my Python code that I'm creating over time.
 
@@ -28,7 +30,7 @@ If you'd like to learn more about the creator of these projects, here's a link t
   <tr>
     <td align="center">
       <a href="https://github.com/PedroX-dev" title="Pedro">
-        <img src="../assets/imagens/pedro.jpg" width="500" alt="Pedro"><br>
+        <img src="/assets/imagens/pedro.jpg" width="500" alt="Pedro"><br>
         <sub>
           <b>Pedro Henrique dos Santos Souza Lopes</b>
         </sub>
