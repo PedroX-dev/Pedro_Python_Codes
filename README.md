@@ -16,8 +16,8 @@ Before you start, please check that you meet the following requirements:
 
 - You have the most recent version of `<python/pip>`
 - You have the librarys installed `<os, playwright, numpy, pandas, requests, BeautifulSoup, sys, shutil, fnmatch>`
-- Você tem uma máquina `<Windows / Linux / Mac>`.
-- Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
+- You have a machine with `<Windows / Linux / Mac>`.
+- Before use the codes, see the guides to help you `<guia / link / documentação_relacionada_ao_projeto>`.
 
 ## 🚀 Instalando <nome_do_projeto>
 
