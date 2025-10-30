@@ -1,0 +1,39 @@
+/* Importa fontes externas (xhtml2pdf suporta isso) */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Noto+Serif:ital@0;1&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 1.5cm; /* Define as margens da página */
+    color: #333;
+}
+
+h1 {
+    font-family: 'Noto Serif', serif;
+    color: #003366;
+    border-bottom: 2px solid #003366;
+    padding-bottom: 5px;
+}
+
+.citacao-container {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin-bottom: 20px;
+    /* Tenta evitar que um bloco de citação quebre entre duas páginas */
+    page-break-inside: avoid; 
+}
+
+.texto {
+    font-family: 'Noto Serif', serif;
+    font-style: italic;
+    font-size: 13pt;
+    color: #222;
+    line-height: 1.4;
+}
+
+.tags {
+    font-size: 9pt;
+    color: #666;
+    font-style: italic;
+}
