@@ -24,11 +24,11 @@ Before you start, please check that you meet the following requirements:
 
 ## 🤝 Collaborator
 
-If you'd like to learn more about the creator of these projects, here's a link to their GitHub profile!
+> If you'd like to learn more about the creator of these projects, here's a link to their GitHub profile!
 
 <table align="center">
   <tr>
-    <td align="center">
+    <td>
       <a href="https://github.com/PedroX-dev" title="Pedro">
         <img src="/assets/imagens/pedro.jpg" width="500" alt="Pedro"><br>
         <sub>
