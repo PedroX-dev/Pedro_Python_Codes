@@ -10,22 +10,12 @@
 
 > Here, I will add my Python code that I'm creating over time.
 
-### Ajustes e melhorias
+## 💻 Prerequisites
 
-O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas para as seguintes tarefas:
+Before you begin, please check that you meet the following requirements:
 
-- [x] Tarefa 1
-- [x] Tarefa 2
-- [x] Tarefa 3
-- [ ] Tarefa 4
-- [ ] Tarefa 5
-
-## 💻 Pré-requisitos
-
-Antes de começar, verifique se você atendeu aos seguintes requisitos:
-
-- Você instalou a versão mais recente de `<linguagem / dependência / requeridos>`
-- Você tem uma máquina `<Windows / Linux / Mac>`. Indique qual sistema operacional é compatível / não compatível.
+- You install the most recent version of `<python / pip / >`
+- Você tem uma máquina `<Windows / Linux / Mac>`.
 - Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
 
 ## 🚀 Instalando <nome_do_projeto>
