@@ -31,7 +31,7 @@ Before you start, please check that you meet the following requirements:
 [**UploadArchive**](./Codes/UploadArchive/)
 <details>
 <summary>Details about the code</summary>
-
+<br>
   
 In this project, the code [**coletar_arquivos.py**](./Codes/UploadArchive/TheCode/coletar_arquivos.py/) acess folders and subfolders from the local you defined;
 In the subfolders, the code will shearch for a especific achive (by name or extension) that the user need to definided in [**caminhos.py**](./Codes/UploadArchive/TheCode/caminhos.py/);
