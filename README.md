@@ -46,7 +46,7 @@ To do the reverse process:
 
 `Final_Folder -> Achive X -> Folder X -> SubFolder X`
 
-You just need to use: [**coletar_arquivos.py**](./Codes/UploadArchive/TheCode/devolver_arquivos.py/)
+You just need to use: [**devolver_arquivos.py**](./Codes/UploadArchive/TheCode/devolver_arquivos.py/)
 
 
 
