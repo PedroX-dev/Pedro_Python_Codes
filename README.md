@@ -49,6 +49,11 @@ To do the reverse process:
 You just need to use: [**devolver_arquivos.py**](./Codes/UploadArchive/TheCode/devolver_arquivos.py/)
 
 
+[**Web-Scrapper**](./Codes/Web-Scrapper/)
+<details>
+<summary>Details about the code</summary>
+<br>
+In this project,
 
 
 ## 🤝 Collaborator
