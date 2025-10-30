@@ -31,6 +31,7 @@ Before you start, please check that you meet the following requirements:
 [**UploadArchive**](./Codes/UploadArchive/)
 <details>
 <summary>Details about the code</summary>
+  
 In this project, the code `coletar_arquivos.py` acess folders and subfolders from the local you defined;
 In the subfolders, the code will shearch for a especific achive (by name or extension) that the user need to definided in `caminhos.py`;
 Then, the program will move the archive to a folder, also defined in `caminhos.py`.
@@ -40,7 +41,9 @@ In other words:
 `Folder X -> SubFolder X -> Archive X -> Final_Folder`
 
 To do the reverse process:
+
 `Final_Folder -> Achive X -> Folder X -> SubFolder X`
+
 You just need to use: `devolver_arquivos.py`
 
 
