@@ -32,9 +32,9 @@ Before you start, please check that you meet the following requirements:
 <details>
 <summary>Details about the code</summary>
   
-In this project, the code [**coletar_arquivos.py**](./Codes/UploadArchive/coletar_arquivos.py/) acess folders and subfolders from the local you defined;
-In the subfolders, the code will shearch for a especific achive (by name or extension) that the user need to definided in [**coletar_arquivos.py**](./Codes/UploadArchive/caminhos.py/);
-Then, the program will move the archive to a folder, also defined in `caminhos.py`.
+In this project, the code [**coletar_arquivos.py**](./Codes/UploadArchive/TheCode/coletar_arquivos.py/) acess folders and subfolders from the local you defined;
+In the subfolders, the code will shearch for a especific achive (by name or extension) that the user need to definided in [**caminhos.py**](./Codes/UploadArchive/TheCode/caminhos.py/);
+Then, the program will move the archive to a folder, also defined in [**caminhos.py**](./Codes/UploadArchive/TheCode/caminhos.py/).
 
 
 In other words:
@@ -45,7 +45,7 @@ To do the reverse process:
 
 `Final_Folder -> Achive X -> Folder X -> SubFolder X`
 
-You just need to use: [**coletar_arquivos.py**](./Codes/UploadArchive/devolver_arquivos.py/)
+You just need to use: [**coletar_arquivos.py**](./Codes/UploadArchive/TheCode/devolver_arquivos.py/)
 
 
 
