@@ -22,7 +22,20 @@ Before you start, please check that you meet the following requirements:
 - Before use the codes, see the guides to help you `<guia / link / documentação_relacionada_ao_projeto>`.
 
   ## The Projects
+> [!Code]
 > The codes are saved in: - [**Codes**](./Codes/)
+
+> [!TIP]
+> Helpful advice for doing things better or more easily.
+
+> [!IMPORTANT]
+> Key information users need to know to achieve their goal.
+
+> [!WARNING]
+> Urgent info that needs immediate user attention to avoid problems.
+
+> [!CAUTION]
+> Advises about risks or negative outcomes of certain actions.
 
 To access any code, simply click on the corresponding link below:
 
