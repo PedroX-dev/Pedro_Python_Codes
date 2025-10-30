@@ -31,8 +31,8 @@ Before you start, please check that you meet the following requirements:
     <td>
       <a href="https://github.com/PedroX-dev" title="Pedro">
         <img src="/assets/imagens/pedro.jpg" width="500" alt="Pedro"><br>
-        <sub>
-          <b align="center">Pedro Henrique dos Santos Souza Lopes</b>
+        <sub align="center">
+          <b>Pedro Henrique dos Santos Souza Lopes</b>
         </sub>
       </a>
     </td>
