@@ -17,7 +17,7 @@
 Before you start, please check that you meet the following requirements:
 
 - You have the most recent version of `<python/pip>`
-- You have the librarys installed `<os, playwright, numpy, pandas, requests, BeautifulSoup, sys, shutil, fnmatch>`
+- You have the librarys installed `<os, playwright, selenium, numpy, pandas, requests, BeautifulSoup, sys, shutil, fnmatch, jinja2>`
 - You have a machine with `<Windows / Linux / Mac>`.
 - Before use the codes, see the guides to help you `<guia / link / documentação_relacionada_ao_projeto>`.
 
