@@ -54,7 +54,7 @@ You just need to use: [**devolver_arquivos.py**](./Codes/UploadArchive/TheCode/d
 <details>
 <summary>Details about the code</summary>
 <br>
-In this project,
+Nesse projeto, criei um simples sistema de Web-Scrapping, que acessa o site: (https://quotes.toscrape.com/)
 
 
 ## 🤝 Collaborator
