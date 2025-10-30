@@ -28,6 +28,7 @@ Before you start, please check that you meet the following requirements:
 > [!TIP]
 > To access any code, simply click on the corresponding link below:
 <details>
+<summary>Codes</summary>
 [**UploadArchive**](./Codes/UploadArchive/):
 
 
