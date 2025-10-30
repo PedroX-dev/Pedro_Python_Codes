@@ -24,13 +24,12 @@ Before you start, please check that you meet the following requirements:
   ## The Projects
 > [!NOTE]
 > The codes are saved in: - [**Codes**](./Codes/)
-> [**UploadArchive**](./Codes/UploadArchive/)
 
 > [!TIP]
 > To access any code, simply click on the corresponding link below:
 <details>
-<summary>Codes</summary>
-[**UploadArchive**](./Codes/UploadArchive/):
+<summary>[**UploadArchive**](./Codes/UploadArchive/)</summary>
+
 
 
 
