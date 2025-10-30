@@ -26,7 +26,7 @@ Before you start, please check that you meet the following requirements:
 
 If you'd like to learn more about the creator of these projects, here's a link to their GitHub profile!
 
-<table>
+<table align="center">
   <tr>
     <td align="center">
       <a href="https://github.com/PedroX-dev" title="Pedro">
