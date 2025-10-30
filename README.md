@@ -21,6 +21,11 @@ Before you start, please check that you meet the following requirements:
 - You have a machine with `<Windows / Linux / Mac>`.
 - Before use the codes, see the guides to help you `<guia / link / documentação_relacionada_ao_projeto>`.
 
+  ## The Projects
+> The codes are saved in: - [**Codes/**](./Codes/)
+
+To access any code, simply click on the corresponding link below:
+
 
 ## 🤝 Collaborator
 
