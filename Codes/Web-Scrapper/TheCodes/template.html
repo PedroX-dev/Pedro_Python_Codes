@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Relatório de Citações</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Relatório de Citações</h1>
+    <p>Total de citações encontradas: {{ total }}</p>
+    
+    <hr>
+
+    {% for item in dados %}
+    <div class="citacao-container">
+        <p class="texto">"{{ item.texto }}"- {{ item.autor }}</p>
+        
+        {% if item.tags %}
+        <p class="tags">Tags: {{ item.tags | join(', ') }}</p>
+        {% endif %}
+    </div>
+    {% endfor %}
+
+</body>
+</html>
