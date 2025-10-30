@@ -14,7 +14,7 @@
 
 Before you begin, please check that you meet the following requirements:
 
-- You install the most recent version of `<python / pip / >`
+- You install the most recent version of `<python / pip>`
 - Você tem uma máquina `<Windows / Linux / Mac>`.
 - Você leu `<guia / link / documentação_relacionada_ao_projeto>`.
 
