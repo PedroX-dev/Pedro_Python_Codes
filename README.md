@@ -28,7 +28,7 @@ If you'd like to learn more about the creator of these projects, here's a link t
   <tr>
     <td align="center">
       <a href="https://github.com/PedroX-dev" title="Pedro">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Pedro no GitHub"/><br>
+        <img src="../assets/imagens/pedro.jpg" width="500" alt="Python"><br>
         <sub>
           <b>Pedro Henrique dos Santos Souza Lopes</b>
         </sub>
@@ -37,10 +37,10 @@ If you'd like to learn more about the creator of these projects, here's a link t
   </tr>
 </table>
 
-## 😄 Seja um dos contribuidores
+## 😄 Become one of the contributors.
 
-Quer fazer parte desse projeto? Clique [AQUI](CONTRIBUTING.md) e leia como contribuir.
+Want to be a part of this project? Click [HERE](CONTRIBUTING.md) and read how to contribute.
 
-## 📝 Licença
+## 📝 License
 
-Esse projeto está sob licença. Veja o arquivo [LICENÇA](LICENSE.md) para mais detalhes.
+This project is licensed. See the [LICENSE](LICENSE.md) file for more details.
