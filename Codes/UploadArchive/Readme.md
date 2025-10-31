@@ -7,7 +7,7 @@
 </p>
 
 <p align= "center">
-  O codigo consiste em processar <b>UM ÚNICO</b> contrato de cada vez, executando as seguintes etapas para esse contrato:<br>
+  O codigo consiste em automatizar a movimentação de arquivos<br>
 </p>
 
 ## 1. Definindo Valores
