@@ -7,15 +7,16 @@
 </p>
 
 <p align= "center">
-  O codigo consiste em processar <b>UM ÚNICO</b> contrato de cada vez, executando as seguintes etapas para esse contrato:<br>
+  O codigo consiste em extrair citações sobre autores de uma página web, e devolver essas citações formatadas para o usuário<br>
 </p>
 
-## 1. Definindo Valores
-- Deve-se utilizar o codigo `caminhos.py`, para definir os locais da sua pasta raiz, pasta temporaria, e o tipo de arquivo que deseja buscar na sua máquina.
-## 2. Rodando o Código, Parte 1
-- Rode o código `coletar_arquivos.py` em sua IDE de preferência.
-- Após o processo ser concluido, irá aparecer no console o local o qual foram extraidos os arquivos; o local de destino dos arquivos; e o número de arquivos movidos.
-## 3. Rodando o Código, Parte 2
+## 1. Formatação do PDF, Parte 1
+- Os aquivos <a href= "TheCodes/template.html">template.html</a> e <a href= "TheCodes/styles.css">styles.css</a>, são responsáveis pela formatação do PDF de saída dos seus dados extraídos; portanto, peronalize-os da forma que quiser.
+## 1. Formatação do PDF, Parte 2
+- O codigo <a href= "TheCodes/gerador_pdf.py">gerador_pdf.py</a> é responsável pela geração do PDF após o processo de extração de dados.
+- Utilizamos as bibliotecas `jinja2` para criar páginas HTML e `xhtml2pdf` para passar o html para pdf.
+- Caso mude algo nos aquivos <a href= "TheCodes/template.html">template.html</a> e <a href= "TheCodes/styles.css">styles.css</a>, atente-se para mudar também em <a href= "TheCodes/gerador_pdf.py">gerador_pdf.py</a>; caso não tenha mudado nada, apenas deixe os códigos juntos.
+## 3. Extraindo os dados da Web
 - Para retornar os arquivos a pasta original, deve-se agora rodar o código `devolver_arquivos.py`.
 - Após a conclusão do processo, o número de arquivos movidos irá aparecer no console, e os códigos serão movidos da página final, para a pasta original.
 ## 4. Conclusão
