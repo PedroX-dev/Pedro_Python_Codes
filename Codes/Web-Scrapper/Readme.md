@@ -1,5 +1,5 @@
 <p align= "center">
-  Aqui, busco explicar como os codigos referentes ao <a href="TheCodes">sistema de Web-Scrapper</a> funciona! <br>
+  Aqui, busco explicar como os codigos referentes ao <a href="TheCodes">Sistema de Web-Scrapper</a> funciona! <br>
 </p>
 
 <p align= "center">
