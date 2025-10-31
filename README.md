@@ -26,7 +26,9 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 ## 🧩 Projetos
 
+
 [!NOTE]
+
 > Os códigos estão salvos em: [**Codes**](./Codes/)
 
 [!TIP]
