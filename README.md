@@ -24,9 +24,7 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 - Você está utilizando uma máquina com `<Windows / Linux / Mac>`;
 - Antes de usar os códigos, consulte os guias disponíveis no `Readme.md` dentro de cada pasta de cada codigo.
 
-## 🧩 Projetos
-
-
+## 🧩 Projetos <br>
 > [!NOTE]
 > Os códigos estão salvos em: [**Codes**](./Codes/)
 
