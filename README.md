@@ -13,7 +13,7 @@
 <details>
 <summary>🇧🇷 Português</summary>
 
-> Aqui, adicionarei meus códigos em Python que estou criando ao longo do tempo.
+> Aqui, adicionarei meus códigos em Python que estarei criando ao longo do tempo.
 
 ## 💻 Pré-requisitos
 
