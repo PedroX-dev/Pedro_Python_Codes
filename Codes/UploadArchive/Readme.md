@@ -1,5 +1,5 @@
 <p align= "center">
-  Aqui, busco explicar como os codigos <a href="TheCode/coletar_arquivos.py">fcvs.py</a> funciona! <br>
+  Aqui, busco explicar como os codigos <a href="TheCode/coletar_arquivos.py">coletar_arquivos.py</a> e <a href="TheCode/devolver_arquivos.py">devolver_arquivos.py</a> funcionam! <br>
 </p>
 
 <p align= "center">
