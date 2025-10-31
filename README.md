@@ -108,7 +108,7 @@ Before you start, please check that you meet the following requirements:
 - You have a machine with `<Windows / Linux / Mac>`;
 - Before using the codes, consult the guides available in the `Readme.md` file within each code folder.
 
-## 🧩 Projects
+# 🧩 Projects
 
 > [!NOTE]
 > The codes are saved in: [**Codes**](./Codes/)
