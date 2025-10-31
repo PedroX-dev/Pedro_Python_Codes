@@ -26,10 +26,10 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 
 ## 🧩 Projetos
 
-> [!NOTE]
+[!NOTE]
 > Os códigos estão salvos em: [**Codes**](./Codes/)
 
-> [!TIP]
+[!TIP]
 > Para acessar qualquer código, basta clicar no link correspondente abaixo:
 
 [**UploadArchive**](./Codes/UploadArchive/)
