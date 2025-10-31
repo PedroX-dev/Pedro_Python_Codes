@@ -29,7 +29,7 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 > [!NOTE]
 > Os códigos estão salvos em: [**Codes**](./Codes/)
 
-> [!TIP]
+>[!TIP]
 > Para acessar qualquer código, basta clicar no link correspondente abaixo:
 
 [**UploadArchive**](./Codes/UploadArchive/)
