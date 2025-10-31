@@ -33,6 +33,7 @@ Antes de começar, verifique se você atende aos seguintes requisitos:
 <details>
 <summary>Detalhes sobre o código</summary>
 <br>
+  
 Neste projeto, o código [**coletar_arquivos.py**](./Codes/UploadArchive/TheCode/coletar_arquivos.py/) acessa pastas e subpastas do local definido por você.  
 Nas subpastas, o código procura por um arquivo específico (pelo nome ou extensão) que o usuário define em [**caminhos.py**](./Codes/UploadArchive/TheCode/caminhos.py/).  
 Em seguida, o programa move o arquivo para uma pasta também definida em [**caminhos.py**](./Codes/UploadArchive/TheCode/caminhos.py/).
@@ -52,6 +53,7 @@ Basta usar: [**devolver_arquivos.py**](./Codes/UploadArchive/TheCode/devolver_ar
 <details>
 <summary>Detalhes sobre o código</summary>
 <br>
+  
 Neste projeto, criei um sistema simples de Web Scraping utilizando 3 arquivos principais:
 [**extrator_web.py**](./Codes/Web-Scrapper/TheCodes/extrator_web.py/)  
 [**gerador_pdf.py**](./Codes/Web-Scrapper/TheCodes/gerador_pdf.py/)  
@@ -104,7 +106,7 @@ Before you start, please check that you meet the following requirements:
 - You have the most recent version of `<python/pip>`;
 - You have the libraries installed `<os, playwright, selenium, numpy, pandas, requests, BeautifulSoup, sys, shutil, fnmatch, jinja2>`;
 - You have a machine with `<Windows / Linux / Mac>`;
-- Before using the codes, see the guides to help you `<guide / link / project_related_documentation>`.
+- Before using the codes, consult the guides available in the `Readme.md` file within each code folder.
 
 ## 🧩 Projects
 
@@ -118,6 +120,7 @@ Before you start, please check that you meet the following requirements:
 <details>
 <summary>Details about the code</summary>
 <br>
+  
 In this project, the code [**coletar_arquivos.py**](./Codes/UploadArchive/TheCode/coletar_arquivos.py/) accesses folders and subfolders from the location you defined.  
 In the subfolders, the code will search for a specific file (by name or extension) that the user needs to define in [**caminhos.py**](./Codes/UploadArchive/TheCode/caminhos.py/).  
 Then, the program will move the file to a folder also defined in [**caminhos.py**](./Codes/UploadArchive/TheCode/caminhos.py/).
@@ -137,6 +140,7 @@ You just need to use: [**devolver_arquivos.py**](./Codes/UploadArchive/TheCode/d
 <details>
 <summary>Details about the code</summary>
 <br>
+  
 In this project, I created a simple Web Scraping system using 3 main files:
 [**extrator_web.py**](./Codes/Web-Scrapper/TheCodes/extrator_web.py/)  
 [**gerador_pdf.py**](./Codes/Web-Scrapper/TheCodes/gerador_pdf.py/)  
