@@ -7,6 +7,9 @@ import time
 import psutil
 import logging
 import pygetwindow as gw
+import tkinter as tk
+from tkinter import scrolledtext, messagebox
+
 
 
 # -------------------------
@@ -98,17 +101,6 @@ def maximizar_janela_titulo(parte_titulo):
 
 
 # -------------------------
-# Funçãos para solicitar os dados do email!
-# -------------------------
-def get_email_data():
-    """Solicita ao usuário as informações do e-mail."""
-    destinatario = input("Digite o email do destinatário: ").strip()
-    assunto = input("Digite o assunto do email: ").strip()
-    corpo = input("Digite o corpo da mensagem: ").strip()
-    return destinatario, assunto, corpo
-
-
-# -------------------------
 # Fluxos principais
 # -------------------------
 def login_gmail(page, usuario, senha):
@@ -136,13 +128,11 @@ def login_gmail(page, usuario, senha):
     except Exception as e:
         logger.error(f"Erro durante o fluxo de login: {e}")
 
-def open_gmail():
+def open_gmail(destinatario, assunto, corpo):
     usuario, senha = get_credentials(SERVICO)
     chrome_path = get_chrome_path()
     kill_chrome_processes()
 
-    # Puxa os dados do e-mail
-    destinatario, assunto, corpo = get_email_data()
 
     with sync_playwright() as p:
         context = None
@@ -225,7 +215,6 @@ def open_gmail():
             else:
                 logger.warning("Botão 'Escrever email' não encontrado.")
 
-            input("Pressione Enter para encerrar...")
 
         finally:
             if context:
@@ -234,5 +223,53 @@ def open_gmail():
                 logger.info("Removendo cópia temporária...")
                 shutil.rmtree(tmpdir, ignore_errors=True)
 
+def run_gui():
+    root = tk.Tk()
+    root.title("Envio automático de e-mail - Gmail")
+    root.resizable(False, False)
+
+    # --- Linha 0: Destinatário ---
+    tk.Label(root, text="Destinatário:").grid(row=0, column=0, sticky="w", padx=10, pady=(10, 5))
+    entry_dest = tk.Entry(root, width=50)
+    entry_dest.grid(row=0, column=1, padx=10, pady=(10, 5))
+
+    # --- Linha 1: Assunto ---
+    tk.Label(root, text="Assunto:").grid(row=1, column=0, sticky="w", padx=10, pady=5)
+    entry_assunto = tk.Entry(root, width=50)
+    entry_assunto.grid(row=1, column=1, padx=10, pady=5)
+
+    # --- Linha 2: Corpo ---
+    tk.Label(root, text="Corpo da mensagem:").grid(row=2, column=0, sticky="nw", padx=10, pady=5)
+    txt_corpo = scrolledtext.ScrolledText(root, width=50, height=10)
+    txt_corpo.grid(row=2, column=1, padx=10, pady=5)
+
+    # --- Função chamada ao clicar em "Enviar" ---
+    def on_send():
+        destinatario = entry_dest.get().strip()
+        assunto = entry_assunto.get().strip()
+        corpo = txt_corpo.get("1.0", tk.END).strip()
+
+        if not destinatario or not assunto or not corpo:
+            messagebox.showwarning("Campos obrigatórios", "Preencha destinatário, assunto e corpo.")
+            return
+
+        try:
+            # Aqui chamamos a lógica de automação
+            open_gmail(destinatario, assunto, corpo)
+            messagebox.showinfo(
+                "Concluído",
+                "Processo de envio finalizado.\nConfira o Gmail no Chrome."
+            )
+        except Exception as e:
+            logger.exception("Erro ao enviar e-mail pelo Gmail")
+            messagebox.showerror("Erro", f"Ocorreu um erro durante o envio:\n{e}")
+
+    # --- Linha 3: Botão ---
+    btn_enviar = tk.Button(root, text="Enviar e abrir Gmail", command=on_send)
+    btn_enviar.grid(row=3, column=1, sticky="e", padx=10, pady=(5, 10))
+
+    root.mainloop()
+
+
 if __name__ == "__main__":
-    open_gmail()
+    run_gui()
