@@ -76,12 +76,15 @@ As informações são retornadas em um PDF formatado via HTML e CSS, utilizando 
   A primeira coisa que deve ser feita, é acessar a pasta [**TheCodes**](./Codes/Fast_Email/TheCodes/) e rodar os scripts em sequência:
   
   1°- [**Save_Credentials.py**](./Codes/Fast_Email/TheCodes/Save_Credentials.py)
+  
     - No console, será solicitado o seu login e senha do email, os quais após serem informados, irão ser salvos no Windows pressionando Enter.
     
   2°- [**Delete_Credentials.py**](./Codes/Fast_Email/TheCodes/Delete_Credentials.py)
+  
     - Caso deseje excluir as credenciais, apenas rode este arquivo e será feito!
     
   3°- [**send_Email.py**](./Codes/Fast_Email/TheCodes/send_Email.py)
+  
     - Agora, basta rodar o código principal, para enviar seu email rapidamente.
   
 </details>
