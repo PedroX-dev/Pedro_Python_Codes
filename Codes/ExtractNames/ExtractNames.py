@@ -220,7 +220,7 @@ def processar_todos_os_pdfs():
     print(f"\nProcessando TODOS os PDFs da pasta: {PASTA_PDFS}")
     for nome_arquivo in arquivos:
         identificar_nome_pdf(nome_arquivo)
-    print("\n✅ Todos os PDFs foram processados com sucesso!")
+    print("\n Todos os PDFs foram processados com sucesso!")
 
 
 if __name__ == "__main__":
