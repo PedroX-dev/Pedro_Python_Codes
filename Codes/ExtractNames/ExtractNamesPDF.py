@@ -5,7 +5,7 @@ import re
 from fpdf import FPDF
 from datetime import datetime
 
-#  Caminhos padrão (ajuste se preciso)
+#  Caminhos padrão
 PASTA_PDFS = r"C:\Users\pedro.lopes\OneDrive - CAMG\Área de Trabalho\PastaPDFsEntrada"
 PASTA_RESULTADOS = r"C:\Users\pedro.lopes\OneDrive - CAMG\Área de Trabalho\PastaPDFsSaida\resultados"
 
@@ -15,7 +15,7 @@ os.makedirs(PASTA_RESULTADOS, exist_ok=True)
 # Modelo NLP do spaCy
 nlp = spacy.load("pt_core_news_sm")
 
-# 🔹 Palavras que NUNCA podem ser o último token de um nome
+#  Palavras que NUNCA podem ser o último token de um nome
 STOP_FINAIS = {
     "Além", "Depois", "Entretanto", "Portanto",
     "Empresa", "Endereço", "CPF", "RG", "CNPJ",
