@@ -9,7 +9,7 @@ import requests
 
 
 # ======================================================================
-#  📌 1. CONFIGURAÇÕES DE PASTAS
+#  1. CONFIGURAÇÕES DE PASTAS
 # ======================================================================
 
 PASTA_PDFS = r"E:\ProjetosEstagio\extrairNomes\pdfs_teste\pdfsEntrada"
@@ -20,10 +20,10 @@ os.makedirs(PASTA_RESULTADOS, exist_ok=True)
 
 
 # ======================================================================
-#  📌 2. NLP DO SPACY
+#  2. NPL DO SPACY
 # ======================================================================
 
-nlp = spacy.load("pt_core_news_sm")
+nlp = spacy.load("pt_core_news_sm") # Carrega o modelo de NPL do spaCy para português.
 
 
 STOP_FINAIS = {
@@ -39,7 +39,7 @@ CONECTORES = {"de", "da", "do", "dos", "das", "e"}
 
 
 # ======================================================================
-#  📌 3. SISTEMA DE GÊNERO: IBGE + API
+#   3. SISTEMA DE GÊNERO: IBGE + API
 # ======================================================================
 
 with open(CAMINHO_IBGE, "r", encoding="utf-8") as f:
@@ -91,7 +91,7 @@ def detectar_genero(nome):
 
 
 # ======================================================================
-#  📌 4. EXTRAÇÃO DE TEXTO DO PDF
+#   4. EXTRAÇÃO DE TEXTO DO PDF
 # ======================================================================
 
 def extrair_texto_pdf(caminho_pdf: str) -> str:
@@ -103,17 +103,19 @@ def extrair_texto_pdf(caminho_pdf: str) -> str:
     texto = re.sub(r"\s+", " ", texto).strip()
     return texto
 
+# Tornar o texto limpo para NPL e Regex
+
 
 # ======================================================================
-#  📌 5. EXTRAÇÃO DE NOMES (NLP + REGEX)
+#   5. EXTRAÇÃO DE NOMES (NPL + REGEX)
 # ======================================================================
 
 def limpar_nome_final(nome: str) -> str | None:
     if not nome:
         return None
 
-    nome = nome.strip(".,;:() ").strip()
-    partes = nome.split()
+    nome = nome.strip(".,;:() ").strip() #strip retirar espaços, pontos etc
+    partes = nome.split() #split separar
 
     while partes and partes[-1] in STOP_FINAIS:
         partes.pop()
@@ -126,7 +128,7 @@ def extrair_nomes_por_nlp(texto: str) -> list[str]:
     nomes = []
 
     for ent in doc.ents:
-        if ent.label_ != "PER":
+        if ent.label_ != "PER": # PER = Pessoa
             continue
 
         tokens = []
@@ -177,7 +179,7 @@ def filtrar_lista_nomes(nomes):
 
 
 # ======================================================================
-#  📌 6. GERAR RELATÓRIO PDF
+#   6. GERAR RELATÓRIO PDF
 # ======================================================================
 
 def gerar_pdf_relatorio(nome_arquivo_pdf: str, nomes_encontrados: list[str]):
@@ -216,7 +218,7 @@ def gerar_pdf_relatorio(nome_arquivo_pdf: str, nomes_encontrados: list[str]):
 
 
 # ======================================================================
-#  📌 7. PROCESSAMENTO PRINCIPAL
+#   7. PROCESSAMENTO PRINCIPAL
 # ======================================================================
 
 def identificar_nome_pdf(nome_arquivo):
@@ -260,7 +262,7 @@ def processar_todos_os_pdfs():
 
 
 # ======================================================================
-#  📌 8. MENU PRINCIPAL
+#   8. MENU PRINCIPAL
 # ======================================================================
 
 if __name__ == "__main__":
